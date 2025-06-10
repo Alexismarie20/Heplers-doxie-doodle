@@ -1,9 +1,98 @@
 body.home {
-    background-color:background-color: #fdf86d;
-    background-image: linear-gradient(315deg, #fdf86d 0%, #bddcf1 74%);
+    background: linear-gradient(to right, #ADD8E6, #FFFACD);
 }
 
-body.home .container {
-    max-width: 100%;
+body.about {
+    background: linear-gradient(to right, #FFC0CB, #D8BFD8);
+} 
+
+body.puppies-for-sale {
+    background: linear-gradient(to right, #A8E6A2, #ADD8E6);
+}
+
+body.reserve {
+    background: linear-gradient(to right, #FFD580, #FFFACD);;
+}
+
+body.contact {
+    background: linear-gradient(to right, #A7E8E8, #D9B3FF);
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+    font-family: 'Arial', sans-serif;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+#navbar {
+    background-color: rgba(167, 232, 232, 0.7);
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3px;
+  }
+  
+  #navbar ul {
+    text-align: center;
+    list-style-type: none;
     padding: 0;
+  }
+  
+  #navbar ul li {
+    font-family: 'Arial', sans-serif;
+    display: inline;
+    margin-right: 20px;
+  }
+
+  
+#phone-link {
+  color: #333;
+  text-decoration: none;
+}
+#phone-link:hover {
+  text-decoration: underline;
+}
+
+#email-link {
+  color: #333;
+  text-decoration: none;
+}
+#email-link:hover {
+  text-decoration: underline;
+}
+
+#name {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#name:hover {
+  text-decoration: underline;
+}
+
+#email {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#email:hover {
+  text-decoration: underline;
 }
