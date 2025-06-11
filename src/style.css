@@ -11,18 +11,30 @@ body.puppies-for-sale {
 }
 
 body.reserve {
-    background: linear-gradient(to right, #FFD580, #FFFACD);;
+    background: linear-gradient(to right, #FFD580, #FFFACD);
 }
 
 body.contact {
-    background: linear-gradient(to right, #A7E8E8, #D9B3FF);
-}
+  background: linear-gradient(to right, #A7E8E8, #D9B3FF);  
+    }
+    
+    a {
+      color: #D7FFFE;
+      text-decoration: none;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      bottom: 0;
+    }
 
 h1 {
     font-family: 'Arial', sans-serif;
     color: #333;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 25px;
     padding: 10px;
 }
 
@@ -32,67 +44,157 @@ h2 {
     text-align: center;
     margin-top: 10px;
 }
+
 p {
     font-family: 'Arial', sans-serif;
     color: #666;
     text-align: center;
     margin: 10px 0;
+    font-size: 15px;
 }
-
 
 #navbar {
-    background-color: rgba(167, 232, 232, 0.7);
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 3px;
-  }
-  
-  #navbar ul {
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #navbar ul li {
-    font-family: 'Arial', sans-serif;
-    display: inline;
-    margin-right: 20px;
-  }
-
-  
-#phone-link {
-  color: #333;
-  text-decoration: none;
+  background-color: #A7E8E8;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px; 
 }
-#phone-link:hover {
-  text-decoration: underline;
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  justify-content: center; 
+}
+
+#navbar ul li {
+  display: inline-block; 
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px; 
+}
+
+#contact-form {
+ font-size: 15px;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; 
+  margin: 20px auto;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:#A7E8E8;
 }
 
 #email-link {
-  color: #333;
+  
   text-decoration: none;
 }
 #email-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #name {
-  color: #333;
   text-decoration: none;
   font-size: 15px;
   margin-bottom: 10px;
 }
 #name:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
+  cursor: pointer;
 }
 
 #email {
-  color: #333;
   text-decoration: none;
   font-size: 15px;
   margin-bottom: 10px;
 }
 #email:hover {
+  text-decoration: underline; 
+  cursor: pointer;
+}
+
+#message {
+  text-decoration: none;
+  font-size: 15px;
+}
+#message:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+#contact-Button {
+  color:#A7E8E8;
+  background-color: #A7E8E8;
+  font-family: 'Arial', sans-serif;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #3d99be;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 200px;
+  transition: background-color 0.3s, color 0.3s;    
+}
+#contact-Button:hover {
+  background-color:#D9B3FF;
+  color: #fff;
+  cursor: pointer;
+}
+.facebook-container {
+  width: 100%;
+  text-align: center;
+}
+
+.facebook {
+  display: block;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+label {
+  margin-top: 10px;
+  font-size: 20px;
+  
+}
+
+label:hover{
+  cursor: pointer;
+  color: #333;
+}
+input, textarea {
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
 }

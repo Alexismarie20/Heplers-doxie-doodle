@@ -14,13 +14,25 @@
 <section id="contact">
     <h2>Contact Us</h2>
     <p>Have questions or want to learn more? Reach out to us!</p>
-    <a id="email-link" href="mailto:"">Email Me</a>
-    <p>Phone: <a id="phone-link" href="tel:+19417259377">(941)-725-9377</a></p>
-follow us on social media:
-    <ul>
-        <li><a href="https://www.facebook.com/share/g/12M7gSx2eyZ/" target="_blank">Facebook</a></li>
-        </section>
-        <script src="navbar.js"></script>
+    <form id="contact-form">
+       <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <br>
+        <label for="message">Enter your message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        <br>
+        <button id="contact-Button" type="submit">Send Message</button>
+    </form>
+</section>
+<h2>Follow Us</h2>    
+    <p>Stay updated with our latest news and adorable puppy pictures!</p>
+<div class="facebook-container">    
+  <a href="https://www.facebook.com/share/g/12M7gSx2eyZ/" class="facebook" target="_blank">Facebook!</a>       
+</div>
+  <script src="navbar.js"></script>
         <script src="src/index.js"></script>
       </body>
       </html>
