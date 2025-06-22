@@ -61,16 +61,17 @@ p {
 }
 
 #navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
-  padding: 0;
   margin: 0;
-  display: flex; 
-  justify-content: center; 
+  padding: 10px;
+ 
 }
 
 #navbar ul li {
-  display: inline-block; 
-  margin: 0 15px;
+  margin: 5px;
 }
 
 #navbar ul li a {
