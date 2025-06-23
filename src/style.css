@@ -1,10 +1,30 @@
 body.home {
-    background: linear-gradient(to right, #ADD8E6, #FFFACD);
+  background: linear-gradient(to right, #ADD8E6, #FFFACD);
+  padding: o 1rem;
 }
 
 body.about {
-    background: linear-gradient(to right, #FFC0CB, #D8BFD8);
+  background: linear-gradient(to right, #FFC0CB, #D8BFD8);
+  padding: 0 1rem;
 } 
+
+.about-paragraph {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.about-photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px; 
+}
+
+
+
 
 body.puppies-for-sale {
     background: linear-gradient(to right, #A8E6A2, #ADD8E6);
@@ -15,8 +35,13 @@ body.reserve {
 }
 
 body.contact {
-  background: linear-gradient(to right, #A7E8E8, #D9B3FF);  
-    }
+background: linear-gradient(to right, #A7E8E8, #D9B3FF);  
+padding: 0 1rem;
+}
+
+.contact-link {
+  color: #3b5998;
+}
     
     a {
       color: #D7FFFE;
@@ -52,6 +77,66 @@ p {
     margin: 10px 0;
     font-size: 15px;
 }
+
+.intro-photo-puppy1 {
+  width: 20%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.puppy-grid {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.puppy-grid img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.puppy-grid img:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #navbar {
   background-color: #A7E8E8;
@@ -193,7 +278,9 @@ input, textarea {
   text-decoration: underline;
   cursor: pointer;
 }
-
+.github-netlify-links {
+  color: #3b5998;
+}
 footer {
   text-align: center;
   padding: 10px;
