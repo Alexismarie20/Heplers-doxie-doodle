@@ -78,41 +78,30 @@ p {
     font-size: 15px;
 }
 
-.intro-photo-puppy1 {
-  width: 20%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  border-radius: 8px;
-  margin: 0 auto;
-}
-
-
-
-
-
 .puppy-grid {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 600px;
+  margin: auto;
 }
 
 .puppy-grid img {
-  width: 80px;
+  width: 95%;
   height: auto;
+  display: block;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 .puppy-grid img:hover {
-  transition: transform 0.3s ease;
-  transform: scale(1.5);
+  transition: transform 0.3s ease; 
+  transform: scale(1.05); 
+  border: 3px solid #ffa07a;
+  cursor: pointer;
 }
-
-
-
-
 
 
 
